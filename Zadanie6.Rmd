@@ -1,0 +1,47 @@
+---
+title: "Odlotowe Agentki"
+author: "Marta Gondek"
+date: "22 maja 2018"
+output:
+  rmarkdown::html_document:
+    theme: united
+---
+
+### **Odlotowe agentki** (ang. Totally Spies, 2001-2014) – kanadyjsko-francuski serial animowany, nadawany przez kanał telewizyjny Jetix. 
+
+| Agentka | Opis |
+|--------------------|---------------------------------------|
+| Samantha „Sam” Simpson |  Na misje wkłada zielony kombinezon. Ma długie, rude włosy i zielone oczy. Jest najrozważniejsza i najdojrzalsza z całej trójki. Jest bystra i bardzo urocza. Uczy się najlepiej w całej szkole. Doskonale walczy. Mocno stąpa po ziemi i większość misji jest pod jej nadzorem. Lubi czytać książki i szybko się uczy. Potrafi docenić przyjaźń i współpracę. Na ogół nie interesuje się chłopakami, chyba, że jest to ktoś niezwykle inteligentny, dojrzały i o nieodpartym uroku. |
+| Clover Enwing | Na misje wkłada czerwony kombinezon. Ma krótkie blond włosy i niebieskie oczy. Jest bardzo sprytna. Kocha przygody i niespodzianki. Nie poddaje się w żadnej sytuacji, nawet w tej na pozór bez wyjścia. Uwielbia stale kupować nowe ciuchy i regularnie chodzi na zakupy. Zawsze wie, co się aktualnie nosi i co jest najmodniejsze. Stale rywalizuje z Mandy o tytuł najpopularniejszej dziewczyny w szkole. Często się zakochuje i ma spore powodzenie u chłopców. Jej stałym chłopakiem jest Blaine, który również jest agentem WOOHP. Kiedyś Blaine próbował zniszczyć Clover. |
+| Alexandra „Alex” Vasquez | Na misje wkłada żółty kombinezon. Ma krótkie, czarne włosy i brązowe oczy. Jest najbardziej urocza, wrażliwa, delikatna i dziewczęca z całej trójki, ale też najbardziej dziecinna. Wykorzystuje te cechy w misjach specjalnych. Alex lubi sport i, jak twierdzi Jerry, jest najbardziej wysportowana z agentek. Bardzo lubi zwierzęta i jest zła, gdy widzi kogoś, kto się nad nimi znęca. O jej ciętym języku boleśnie przekonują się zwłaszcza chłopcy, jeśli jej podpadną. |
+
+### Premiery w Polsce:
+
+1. I seria – 2 września 2002 roku,
+2. II seria – 6 października 2003 roku,
+3. III seria (odcinki 53-62) – 21 marca 2005 roku,
+4. III seria (odcinki 63-78) – 9 stycznia 2006 roku,
+5. IV seria (odcinki 79-91) – 10 lipca 2006 roku,
+6. IV seria (odcinki 92-104) – 6 listopada 2006 roku; (pominięty odc. 99) – 7 maja 2007 roku,
+7. V seria (odcinki 105-117) – 5 listopada 2007 roku,
+8. V seria (odcinki 118-130) – 4 lutego 2008 roku.
+
+### [Tu można obejrzeć](https://www.kreskowki.tv/kategoria/sub/127/odlotowe_agentki__odcinki)
+
+![](https://m.ocdn.eu/_m/f8175da4e608ff7f2a7b754826ac8f43,62,37.jpg)
+
+#### Wklejam kody
+
+```{r}
+library(tidyverse)
+ggplot(data = mpg) +
+  geom_bar(mapping = aes (x = class)) +
+  labs(title = "Ilość samochodów w poszczególnych klasach w zbiorze", x = "Klasa samochodu") 
+```
+
+```{r}
+library(tidyverse)
+arrange(mpg, desc(displ))
+```
+
+
